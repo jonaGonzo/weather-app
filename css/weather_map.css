@@ -1,0 +1,72 @@
+body {
+    background-image: url("../img/sunset-at-beach-in-thailand-2021-08-30-02-18-29-utc.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#spacer {
+    height: 15em;
+}
+
+#current-city {
+    font-family: "Rockwell", serif;
+}
+
+.navContainer > h1 {
+    font-family: Marker Felt, serif;
+}
+
+#map {
+    width: 75%;
+    height: 38em;
+}
+
+html {
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.card-header {
+    font-family: "Rockwell", serif;
+    color: white !important;
+
+}
+
+
+.weatherCard > ul > li {
+    background-color: rgba(236, 131, 52, 0.5) !important;
+    font-family: "Rockwell", serif;
+    color: white !important;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weatherCard {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*@media only screen and (max-width: 600px) {*/
+/*    #cards{*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        justify-content: space-between;*/
+/*    }*/
+/*    .weatherCard {*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*    }*/
+/*.cardRow {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*}*/
